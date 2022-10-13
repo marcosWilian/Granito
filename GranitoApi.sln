@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- API", "1- API", "{0C82CFDB-CCC3-44D1-B181-CFFAB1E32C64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- TEST", "2- TEST", "{98D72F55-6CC3-43FB-A32C-E67382C65205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxaJurosAPI", "TaxaJurosAPI\TaxaJurosAPI.csproj", "{7989E17D-736B-487F-89C5-2421F8368F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoJuros", "CalculoJuros\CalculoJuros.csproj", "{3B35F405-ECD7-402D-A045-CD0547E1C705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{2FD1900F-7A71-4F19-8672-2EA4BD8EB221}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7989E17D-736B-487F-89C5-2421F8368F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7989E17D-736B-487F-89C5-2421F8368F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7989E17D-736B-487F-89C5-2421F8368F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7989E17D-736B-487F-89C5-2421F8368F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B35F405-ECD7-402D-A045-CD0547E1C705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B35F405-ECD7-402D-A045-CD0547E1C705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B35F405-ECD7-402D-A045-CD0547E1C705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B35F405-ECD7-402D-A045-CD0547E1C705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD1900F-7A71-4F19-8672-2EA4BD8EB221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD1900F-7A71-4F19-8672-2EA4BD8EB221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD1900F-7A71-4F19-8672-2EA4BD8EB221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD1900F-7A71-4F19-8672-2EA4BD8EB221}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7989E17D-736B-487F-89C5-2421F8368F01} = {0C82CFDB-CCC3-44D1-B181-CFFAB1E32C64}
+		{3B35F405-ECD7-402D-A045-CD0547E1C705} = {0C82CFDB-CCC3-44D1-B181-CFFAB1E32C64}
+		{2FD1900F-7A71-4F19-8672-2EA4BD8EB221} = {98D72F55-6CC3-43FB-A32C-E67382C65205}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAEAFDA8-EE6D-4797-9BE3-51C9FEA1EB82}
+	EndGlobalSection
+EndGlobal
